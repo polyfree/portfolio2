@@ -1,4 +1,30 @@
 ﻿@charset "UTF-8";
 
-* {padding: 0; margin: 0;}
-header {width:}
+body {margin: 0; padding: 0;}
+ul,li,ol {list-style:none; padding:0; margin:0;}
+a {text-decoration:none; color:#333;}
+
+/* 상단 부분 */
+
+header {width: 100%; height: 160px;}
+header #headtop {width: 1100px; height: 40px; margin: 0 auto;}
+header #headtop .topul {width: 210px; height:40px; float: left; display:inline-block; line-height: 40px;}
+header #headtop .topul li {font-size:4px; margin-right: 10px; float: left;}
+header #headtop .snslogos {width: 160px; height: 40px; float:right;}
+header #headtop .snslogos li {float:left; }
+header #headtop .snslogos li img { width: 30px;}
+header #headtop .download {width:140px; height:35px; background-color: #7e60d2; float:right;line-height: 35px; border-radius: 3px;}
+header #headtop .download a {color:#fff; font-size: 11px; padding-left: 10px;}
+
+header .head_logo {width: 1100px; height: 120px; margin: 0 auto; background-color:cyan;}
+header .head_logo .logo {width: 350px; height: 80px; padding-top:20px; float: left;}
+header .head_logo .address {width:230px; height:120px; background-color: yellow;float:right;}
+header .head_logo .smsnumber {width:230px; height:120px; background-color: tomato;float:right;}
+header .head_logo .serviseCenter {width:230px; height:120px; background-color: red;float:right;}
+
+
+
+/* 중간 부분 */
+
+
+/* 하단부분 */
