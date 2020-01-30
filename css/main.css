@@ -1,8 +1,9 @@
 ﻿@charset "UTF-8";
-
+/* 리셋 */
 body {margin: 0; padding: 0;}
 ul,li,ol {list-style:none; padding:0; margin:0;}
 a {text-decoration:none; color:#333;}
+p,h2,h1,h3,h4 {margin:0;}
 
 /* 상단 부분 */
 
@@ -30,9 +31,12 @@ section .head_banner .banner_inner {width: 700px; height: 325px; background-colo
 section .head_banner .banner_inner .inner_left{width: 465px; height:325px; background-color: red; float: left; }
 section .head_banner .banner_inner .inner_right{width:235px; height:325px; background-color: green;float: right;}
 
+
+/* 중간 부분 */
+
 section .products {width: 100%; height: 700px; background-color: cyan;}
 section .products p:first-child {text-align: center; padding-top: 30px; margin: 0;}
-section .products p:nth-child(2){text-align: center; padding: 30px 0 50px 0; margin: 0;} 
+section .products p:nth-child(2){text-align: center; padding: 30px 0 50px 0; margin: 0;}
 section .products .bannerp {width:1360px; height: 435px; border: 1px solid #333; margin: 0 auto;}
 section .products .bannerp .bannerimg_img_left {width: 130px; height: 365px; background-color: green; float:left;}
 section .products .bannerp .bannerimg_img_right{width: 130px; height: 365px; background-color: green; float:right;}
@@ -53,18 +57,62 @@ section .coldrolled .coldrolled_box .coldimage {width: 670px; height: 420px;back
 section .coldrolled .coldrolled_box .coldrolled_right{width: 130px; height: 420px; background-color: green; float:right;}
 
 section .education {width: 100%; height: 700px; background-color: yellow;position: relative;}
-
 section .education .education_box {width: 1173px; height: 440px; background-color: green; position: absolute; top:50%; left:50%; margin-top:-220px; margin-left:-586px;}
 section .education .education_box #educationbox {width: 405px; height:440px; background-color: #7e57c2; float:left;}
 section .education .education_box .educationimg {width: 740px; height: 440px; background-color: tomato; float:right;}
-section .education .education_box .educationimg .educationimg_top{width: 740px; height:290px;background-color: red;float:right; }
+section .education .education_box .educationimg .educationimg_top {width: 740px; height:290px;background-color: red;float:right; }
 section .education .education_box .educationimg .educationimg_top .educationimg_first {width: 740px; height:50px; background-color: skyblue;}
 section .education .education_box .educationimg .educationimg_top .educationimg_first h3 {margin-top:0; float:left;}
 section .education .education_box .educationimg .educationimg_top .educationimg_first img {float: right;}
-section .education .education_box .educationimg .educationimg_top .educat_bottom {width:740px; height: 220px; background-color: blue;}
+section .education .education_box .educationimg .educationimg_top .educat_bottom {width:740px; height: 220px; background-color: rgb(220, 244, 125);}
+section .education .education_box .educationimg .educationimg_top .educat_bottom li {width:230px; height: 225px; overflow: hidden; float: left;padding-right:16px;};
+section .education .education_box .educationimg .educat_img {width:740px; height:150px;}
+section .education .education_box .educationimg .educat_img li {width:145px; height:150px; float: left; position:relative; background-color:#f1f1fd; margin-right:3px;}
+section .education .education_box .educationimg .educat_img li a {width:80px; height:80px; display:inline-block; position:absolute; top:50%; left:50%; margin-top:-40px; margin-left:-40px;}
 
+section .whoweare {width: 100%; height: 750px; background-color: green;position:relative}
+section .whoweare h2 {text-align: center;}
+section .whoweare .whoweare1 {width: 1190px; height:460px; background-color:rgb(152, 84, 96);position:absolute; top:50%; left:50%; margin-top:-230px; margin-left:-595px;}
+section .whoweare .whoweare1 .section {width: 365px; height:460px; background-color:rgb(174, 73, 198); float: left; margin-right: 30px; position:relative;}
+section .whoweare .whoweare1 .section img {width: 365px; height:280px; display:inline-block;}
+section .whoweare .whoweare1 .section .section1 {width: 300px; height: 140px; background-color: rgb(187, 54, 79);text-align: center; margin: 0 auto;margin-top:-70px}
+section .whoweare .whoweare1 .section .section1 p {}
+section .whoweare .whoweare1 .section .section1 span {}
+section .whoweare .whoweare1 .section button {width: 150px; height: 50px; border-radius: 30px; border: 3px solid #7e57c2; display: inline-block;margin-top: 50px; margin-left: -75px; position: absolute; left:50%}
 
-/* 중간 부분 */
+section .ourproduct {width: 100%; height: 850px; background-color: yellow; position:relative}
+section .ourproduct h2 {text-align: center;}
+section .ourproduct .ourbanner {width: 1435px; height: 425px; background-color: rgb(4, 191, 198); position:absolute; top:50%; left:50%; margin-top:-212.5px; margin-left:-717.5px;}
+section .ourproduct .ourbanner .ourbanner_left {width:120px; height: 425px; background-color: rgb(182, 219, 130);float:left;}
+section .ourproduct .ourbanner .ourbanner_img {width:880px; height:425px;background-color: rgb(11, 17, 227); float: left;margin-left:30px;}
+section .ourproduct .ourbanner .ourbanner_text {width: 447px; height: 345px; background-color: rgb(238, 172, 52);float:right; position:absolute; top:50%; margin-top: -172.5px; left: 58%; }
+section .ourproduct .ourbanner .ourbanner_right {width:120px; height: 425px; background-color: rgb(182, 219, 130);float:right;}
+
+section .application {width: 100%; height: 390px; background-color: rgb(3, 143, 207); position:relative}
+section .application .application_all {width:1190px; height:265px; background-color: rgb(196, 87, 249);position:absolute; top:50%; left:50%; margin-top: -132.5px; margin-left: -595px;}
+section .application .application_left {width: 595px; height:265px; background-color: #222836; float:left;}
+section .application .application_left .application_left_text {width:360px; height:265px; float:left;}
+section .application .application_left h3 {color:white;margin-left: 50px;margin-top:50px;}
+section .application .application_left span {color:white;margin-left: 50px;}
+section .application .application_left .p {width: 150px; height:50px; background-color: white; color: #222836; border-radius: 20px; position:relative; top:30%; margin-left: 50px;}
+section .application .application_left .p a {width: 150px; height:50px; position: absolute; top:25%; left:50%; margin-left:-75px; color:black; text-align: center;}
+section .application .application_left .p_img {width: 222px; height: 265px; background-color: rgb(179, 105, 138);float:right;}
+section .application .application_center {width: 265px; height: 265px; background-color: rgb(37, 181, 226); float:left;margin-left:30px;}
+section .application .application_right {width: 265px; height: 265px; background-color: rgb(231, 118, 65); float:right;}
+
+section .longbar {width: 100%; height: 180px; background-color: #795cc8;position: relative;}
+section .longbar .longbar_content{width: 1120px; height:180px;margin: 0 auto;}
+section .longbar .longbar_content li {width: 270px; height:180px; margin-left:10px; background-color:rgb(227, 172, 142); float:left;}
+
+section .news {width: 100%; height: 910px; background-color: rgb(3, 143, 207);position: relative;}
+section .news p {text-align:center;}
+section .news h2 {text-align:center;}
+section .news .news_box {width: 1200px; height: 430px; background-color: rgb(18, 230, 167);position: absolute; top:60%; left:50%; margin-top:-215px; margin-left:-560px;}
+section .news .newsbox {width: 350px; height: 425px;background-color: rgb(27, 205, 89);float:left;}
 
 
 /* 하단부분 */
+
+footer {width: 100%; height: 370px; background-color: rgb(160, 235, 176); position: relative;}
+footer .footer_text {width: 1190px; height:245px; background-color: rgb(141, 160, 235); position: absolute; top:50%; left:50%; margin-top:-122.5px; margin-left:-560px}
+footer .footer_text .div1 {width:290px; height: 245px; margin-right:7px; background-color: rgb(125, 147, 126);float:left;}
