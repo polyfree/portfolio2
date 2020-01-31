@@ -3,58 +3,88 @@
 body {margin: 0; padding: 0;}
 ul,li,ol {list-style:none; padding:0; margin:0;}
 a {text-decoration:none; color:#333;}
-p,h2,h1,h3,h4 {margin:0;}
+p,h2,h1,h3,h4,h5,span {margin:0; color: #0d123a;}
+button {border: none;}
 
 /* 상단 부분 */
 
 header {width: 100%; height: 160px;}
-header #headtop {width: 1100px; height: 40px; margin: 0 auto;}
-header #headtop .topul {width: 210px; height:40px; float: left; display:inline-block; line-height: 40px;}
+header #headtop {width: 1100px; height: 40px; margin: 0 auto; position:sticky;top:0;}
+header #headtop .topul {width: 210px; height:40px; float: left; display:inline-block; line-height: 40px;padding-left: 5px }
 header #headtop .topul li {font-size:4px; margin-right: 10px; float: left;}
 header #headtop .snslogos {width: 160px; height: 40px; float:right;}
-header #headtop .snslogos li {float:left; }
-header #headtop .snslogos li img { width: 30px;}
-header #headtop .download {width:140px; height:35px; background-color: #7e60d2; float:right;line-height: 35px; border-radius: 3px;}
-header #headtop .download a {color:#fff; font-size: 11px; padding-left: 10px;}
+header #headtop .snslogos ul {width: 160px; height: 26px; padding-top:5px;}
+header #headtop .snslogos li {float:left; padding:2px; }
+header #headtop .snslogos li img { width: 25px;}
+header #headtop .download {width:140px; height:35px; background-color: #7e60d2; float:right;line-height: 35px; border-radius: 12px;}
+header #headtop .download:hover {background-color: #4417c1;}
+header #headtop .download a {color:#fff; font-size: 11px; padding-left: 10px; position:relative;}
+header #headtop .download img {position: absolute; left: 105%; top:-12%; }
 
-header .head_logo {width: 1100px; height: 120px; margin: 0 auto; background-color:cyan;}
-header .head_logo .logo {width: 350px; height: 80px; padding-top:20px; float: left;}
-header .head_logo .address {width:230px; height:120px; background-color: yellow;float:right;}
-header .head_logo .smsnumber {width:230px; height:120px; background-color: tomato;float:right;}
-header .head_logo .serviseCenter {width:230px; height:120px; background-color: red;float:right;}
+header .head_logo {width: 1100px; height: 120px; margin: 0 auto; font-size: 14px;}
+header .head_logo .sbox {padding-top: 40px;}
+header .head_logo .sbox span {font-weight: bold; }
+header .head_logo .sbox p {font-size:13px;}
+header .head_logo .logo {width: 330px; height: 80px; padding-top:20px; float: left;}
+header .head_logo .address {width:251px; height:120px; float:right;}
+header .head_logo .address img {width: 35px; padding-right: 5px; float: left;}
+header .head_logo .smsnumber {width:192px; height:120px; float:right;}
+header .head_logo .smsnumber img {width: 35px;float: left;padding-right: 5px;}
+header .head_logo .serviseCenter {width:150px; height:120px; float:right;}
+header .head_logo .serviseCenter img {width: 35px; padding-right: 5px; float: left;}
 
 /* 상단 배너 부분 */
 
-section .head_banner {width: 100%; height: 700px; background-color: grey; position:relative;}
-section .head_banner img{}
-section .head_banner .banner_inner {width: 700px; height: 325px; background-color: yellow; position:absolute; top: 50%; left:38%; z-index:1; margin-top:-162px; margin-left:-350px;}
-section .head_banner .banner_inner .inner_left{width: 465px; height:325px; background-color: red; float: left; }
-section .head_banner .banner_inner .inner_right{width:235px; height:325px; background-color: green;float: right;}
+section .head_banner {width: 100%; height: 700px; position:relative;background-image: url("https://lh3.googleusercontent.com/fwe5ELwpMdn6IVSsSU2ws3MAdpznD702JQbnq7aeGi_gRWXz72ir9-IfQC2EwIedmXBE160Sp86_IOECz7wLoZC8h9Uzil_G9j5RHG-9ZuNjXjIlmpoEdoSTqYyMB6LVuqtfaBhrjtgTE-xs8lbculWGQrtH-LzLwzKpwL0dTxrO6EmOLVX3Z6bHFNQJC6pn1MzhZpnns2uEHmldieOd2--kHhLewmYBrBAx3i6Xvx2UL-ViP2pZf6kpWM6bzTEUbUY0Li1PriO6um_PSqVorGKYCCSA8SnCJYQIpiyqCLrKHwGzKSIy7aSqd56QqCyckhm572T2lT3yM4j2xiFuz8SSXu7IUPkd47TkyPr1A9g8FfjDDRbYdeOnmO4wxCBKp29ZJN9fWe63cHlC24_hgLDBqEjcicMmqmH5vixLfx0huQ3R_nOA214wBt72ebxlC07SorWQgcFnyc4xvAK3L3B4D2U6o70dBY9sGQdURd5AKDwoEtUhZRxvWgO_96JtmWLH34esngY3NT22YQhAm9hrOh5DsZWju24hW8g5OWARpHQtnepQ7x5TiECJ66vNhG_wcEMr-cq59i4UQu1e_TpiGCVMoLzE5AMMbTxwvUEP5T4-GZLheAHn_XtEuDDm9OnGnBVTrWr6YWp0K8K0s7le4UwJCP0GwrSeZPvxAHSLIvFPpktG27Y9=w1000-h667-no");
+background-size: cover; background-repeat: no-repeat;background-attachment: fixed;}
+section .head_banner .banner_inner {width: 700px; height: 325px; background-color: white; border-radius: 10px; position:absolute; top: 50%; left:38%; z-index:1; margin-top:-162px; margin-left:-350px;}
+section .head_banner .banner_inner .inner_left {width: 400px; height:285px; float: left; padding: 30px 0 0 30px;}
+section .head_banner .banner_inner .inner_left h2 {font-size: 40px; margin-bottom:3px;}
+section .head_banner .banner_inner .inner_left span {width: 400px;}
+section .head_banner .banner_inner .inner_left button {width: 130px; height: 45px; font-size: 15px; color:white; background-color: #7d5fcf; border-radius:10px; display: block; margin-top:20px;}
+section .head_banner .banner_inner .inner_left button:hover {background-color: #4417c1; cursor:pointer;}
+section .head_banner .banner_inner .inner_right{width:190px; height:325px; background-color: #f7f7f7; float: right;border-radius: 10px;}
+section .head_banner .banner_inner .inner_right img {width: 90px;margin:0 auto;display: block;padding-top:60px;}
+section .head_banner .banner_inner .inner_right h2 {padding-top:20px; text-align:center; font-size: 15px;}
+section .head_banner .banner_inner .inner_right p {text-align:center; font-size: 12px;}
 
 
 /* 중간 부분 */
 
-section .products {width: 100%; height: 700px; background-color: cyan;}
-section .products p:first-child {text-align: center; padding-top: 30px; margin: 0;}
-section .products p:nth-child(2){text-align: center; padding: 30px 0 50px 0; margin: 0;}
-section .products .bannerp {width:1360px; height: 435px; border: 1px solid #333; margin: 0 auto;}
-section .products .bannerp .bannerimg_img_left {width: 130px; height: 365px; background-color: green; float:left;}
-section .products .bannerp .bannerimg_img_right{width: 130px; height: 365px; background-color: green; float:right;}
-section .products .bannerp .bannerimg{width: 350px; height:365px; background-color: red; margin-right: 25px; float: left;position: relative;}
+section .products {width: 100%; height: 700px; background-color: #fff;text-align: center}
+section .products p:first-child {padding: 30px 0 5px 0; border-bottom: 3px solid #7d5fcf; display: inline-block; }
+section .products p:nth-child(2){text-align: center; padding: 30px 0 50px 0; margin: 0; font-size: 50px; font-weight: bolder;}
+section .products .bannerp {width:1360px; height: 435px; margin: 0 auto;}
+section .products .bannerp .bannerimg img {transition: transform .4s ease-in-out;}
+section .products .bannerp .bannerimg:hover img {transform: scale(1.1); cursor:pointer;}
+section .products .bannerp .bannerimg_img_left {width: 130px; height: 365px; float:left; background-position: center; background-repeat: no-repeat; background-image: url('/img/main/left.png');}
+section .products .bannerp .bannerimg_img_right{width: 130px; height: 365px; float:right;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/right.png');}
+section .products .bannerp .bannerimg {width: 350px; height:365px; margin-right: 25px; float: left;position: relative;}
+section .products .bannerp .bannerimg img {width:350px; height: 206px;box-shadow: 1px 1px 1px #cdcbcb}
 section .products .bannerp .bannerimg:nth-of-type(4){margin-right:0;}
-section .products .bannerp .bannerimg .textbox {width:308px; height:195px; background-color: purple; position:absolute; top: 46%; left:50%; margin-left:-154px; }
+section .products .bannerp .bannerimg .textbox {width:308px; height:195px; background-color: #fff; position:absolute; top: 50%; left:50%; margin-left:-154px;box-shadow: 1px 1px 4px #e3d6d6;}
+section .products .bannerp .bannerimg .textbox h5{font-size: 25px; font-weight: bold; padding-top: 20px; padding-bottom: 10px;}
+section .products .bannerp .bannerimg .textbox span{text-align: left;}
+section .products .bannerp .bannerimg .textbox {transition: transform .4s ease-in-out;}
+section .products .bannerp .bannerimg:hover .textbox {transform:translatey(35px);cursor:pointer;}
 
-section .year60 {width: 100%; height: 700px; background-color: yellow;position: relative;}
-section .year60 .yearleft {width: 1090px; height:400px; margin: 0 auto; background-color:red; position: absolute; top:50%; left: 50%; margin-top:-200px; margin-left:-545px;}
-section .year60 .yearleft .lefttextbutton {width:545px; height:395px; background-color: tomato; float: left;}
-section .year60 .yearleft .video {width:545px; height:395px; background-color: green; float: right;}
+section .year60 {width: 100%; height: 600px; position: relative; background-image: url('/img/main/z.png');background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
+section .year60 .yearleft {width: 1090px; height:400px; margin: 0 auto; position: absolute; top:50%; left: 50%; margin-top:-200px; margin-left:-545px;}
+section .year60 .yearleft .lefttextbutton {width:545px; height:395px; float: left;text-align: left;}
+section .year60 .yearleft .lefttextbutton p:first-child {padding: 0px 0 5px 0; border-bottom: 3px solid #7d5fcf; display: inline-block;}
+section .year60 .yearleft .lefttextbutton p:nth-child(3) {margin-bottom:30px;}
+section .year60 .yearleft .lefttextbutton h2 {font-weight: bolder; font-size: 30px; margin-top:30px; margin-bottom:30px;}
+section .year60 .yearleft .lefttextbutton button{width: 130px; height: 45px; font-size: 15px; color:white; background-color: #7d5fcf; border-radius:10px; }
+section .year60 .yearleft .video {width:545px; height:395px; float: right;}
 
 section .coldrolled {width: 100%; height: 695px; background-color: cyan;position: relative;}
-section .coldrolled .coldrolled_box {width:1360px; height: 420px; background-color: purple; position: absolute; top:50%; left: 50%; margin-left: -680px;margin-top:-210px; }
-section .coldrolled .coldrolled_box .coldrolled_left {width: 130px; height: 420px; background-color: green; float:left;}
+section .coldrolled .coldrolled_box {width:1360px; height: 420px;position: absolute; top:50%; left: 50%; margin-left: -680px;margin-top:-210px; }
+section .coldrolled .coldrolled_box .coldrolled_left {width: 130px; height: 420px;float:left;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/left.png');}
 section .coldrolled .coldrolled_box .coldtext {width: 430px; height: 420px; background-color: yellow;float: left;}
+section .coldrolled .coldrolled_box .coldtext h2 {font-weight: bolder; font-size: 30px; margin-top:30px; margin-bottom:30px;}
+section .coldrolled .coldrolled_box .coldtext button {width: 130px; height: 45px; font-size: 15px; color:white; background-color: #7d5fcf; border-radius:10px; margin-top: 45px;}
 section .coldrolled .coldrolled_box .coldimage {width: 670px; height: 420px;background-color: red; float: left;}
-section .coldrolled .coldrolled_box .coldrolled_right{width: 130px; height: 420px; background-color: green; float:right;}
+section .coldrolled .coldrolled_box .coldrolled_right{width: 130px; height: 420px; float:right;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/right.png');}
 
 section .education {width: 100%; height: 700px; background-color: yellow;position: relative;}
 section .education .education_box {width: 1173px; height: 440px; background-color: green; position: absolute; top:50%; left:50%; margin-top:-220px; margin-left:-586px;}
