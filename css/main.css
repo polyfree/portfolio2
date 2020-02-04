@@ -10,13 +10,13 @@ button {border: none;}
 
 header {width: 100%; height: 160px;}
 header #headtop {width: 1100px; height: 40px; margin: 0 auto; position:sticky;top:0;}
-header #headtop .topul {width: 210px; height:40px; float: left; display:inline-block; line-height: 40px;padding-left: 5px }
+header #headtop .topul {width: 250px; height:40px; float: left; display:inline-block; line-height: 40px;padding-left: 5px }
 header #headtop .topul li {font-size:4px; margin-right: 10px; float: left;}
 header #headtop .snslogos {width: 160px; height: 40px; float:right;}
 header #headtop .snslogos ul {width: 160px; height: 26px; padding-top:5px;}
 header #headtop .snslogos li {float:left; padding:2px; }
 header #headtop .snslogos li img { width: 25px;}
-header #headtop .download {width:140px; height:35px; background-color: #7e60d2; float:right;line-height: 35px; border-radius: 12px;}
+header #headtop .download {width:150px; height:35px; background-color: #7e60d2; float:right;line-height: 35px; border-radius: 12px;}
 header #headtop .download:hover {background-color: #4417c1;}
 header #headtop .download a {color:#fff; font-size: 11px; padding-left: 10px; position:relative;}
 header #headtop .download img {position: absolute; left: 105%; top:-12%; }
@@ -77,37 +77,49 @@ section .year60 .yearleft .lefttextbutton h2 {font-weight: bolder; font-size: 30
 section .year60 .yearleft .lefttextbutton button{width: 130px; height: 45px; font-size: 15px; color:white; background-color: #7d5fcf; border-radius:10px; }
 section .year60 .yearleft .video {width:545px; height:395px; float: right;}
 
-section .coldrolled {width: 100%; height: 695px; background-color: cyan;position: relative;}
+section .coldrolled {width: 100%; height: 695px;position: relative;}
 section .coldrolled .coldrolled_box {width:1360px; height: 420px;position: absolute; top:50%; left: 50%; margin-left: -680px;margin-top:-210px; }
 section .coldrolled .coldrolled_box .coldrolled_left {width: 130px; height: 420px;float:left;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/left.png');}
-section .coldrolled .coldrolled_box .coldtext {width: 430px; height: 420px; background-color: yellow;float: left;}
+section .coldrolled .coldrolled_box .coldtext {width: 430px; height: 420px;float: left;}
 section .coldrolled .coldrolled_box .coldtext h2 {font-weight: bolder; font-size: 30px; margin-top:30px; margin-bottom:30px;}
 section .coldrolled .coldrolled_box .coldtext button {width: 130px; height: 45px; font-size: 15px; color:white; background-color: #7d5fcf; border-radius:10px; margin-top: 45px;}
-section .coldrolled .coldrolled_box .coldimage {width: 670px; height: 420px;background-color: red; float: left;}
+section .coldrolled .coldrolled_box .coldimage {width: 670px; height: 420px; float: left;overflow: hidden; box-shadow: 3px 3px 3px #cdcbcb;}
+section .coldrolled .coldrolled_box .coldimage img {width: 670;}
 section .coldrolled .coldrolled_box .coldrolled_right{width: 130px; height: 420px; float:right;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/right.png');}
 
-section .education {width: 100%; height: 700px; background-color: yellow;position: relative;}
-section .education .education_box {width: 1173px; height: 440px; background-color: green; position: absolute; top:50%; left:50%; margin-top:-220px; margin-left:-586px;}
-section .education .education_box #educationbox {width: 405px; height:440px; background-color: #7e57c2; float:left;}
-section .education .education_box .educationimg {width: 740px; height: 440px; background-color: tomato; float:right;}
-section .education .education_box .educationimg .educationimg_top {width: 740px; height:290px;background-color: red;float:right; }
-section .education .education_box .educationimg .educationimg_top .educationimg_first {width: 740px; height:50px; background-color: skyblue;}
-section .education .education_box .educationimg .educationimg_top .educationimg_first h3 {margin-top:0; float:left;}
+section .education {width: 100%; height: 700px;position: relative; background-color:rgb(250, 250, 250) }
+section .education .education_box {width: 1173px; height: 440px; position: absolute; top:50%; left:50%; margin-top:-220px; margin-left:-586px;}
+section .education .education_box #educationbox {width: 405px; height:440px; background-color: #7e57c2; float:left; border-radius: 10px;}
+section .education .education_box #educationbox div:first-child {display: inline-block; padding-bottom:20px; border-bottom: 1px solid #cbc9c9;}
+section .education .education_box #educationbox div:first-child h3 {float: left;padding: 20px; color:#fff;}
+section .education .education_box #educationbox div:first-child img {width: 25px; float: right; padding: 20px;}
+section .education .education_box #educationbox div  {padding-bottom:30px; padding-top: 10px; border-bottom: 1px solid #cbc9c9; }
+section .education .education_box #educationbox div:nth-child(2) {margin-left:20px; margin-right: 20px;}
+section .education .education_box #educationbox div:nth-child(3) {margin-left:20px; margin-right: 20px;}
+section .education .education_box #educationbox div:nth-child(4) {margin-left:20px; margin-right: 20px;}
+section .education .education_box #educationbox div p {padding: 20px 10px 5px 20px; color:#fff;}
+section .education .education_box #educationbox div span {padding: 20px; color:#cbc9c9;}
+section .education .education_box .educationimg {width: 740px; height: 440px;  float:right;}
+section .education .education_box .educationimg .educationimg_top {width: 740px; height:290px;float:right; }
+section .education .education_box .educationimg .educationimg_top .educationimg_first {width: 740px; height:50px;}
+section .education .education_box .educationimg .educationimg_top .educationimg_first h3 {margin-top:0; float:left; font-size: 23px}
 section .education .education_box .educationimg .educationimg_top .educationimg_first img {float: right;}
-section .education .education_box .educationimg .educationimg_top .educat_bottom {width:740px; height: 220px; background-color: rgb(220, 244, 125);}
+section .education .education_box .educationimg .educationimg_top .educat_bottom {width:740px; height: 220px; }
 section .education .education_box .educationimg .educationimg_top .educat_bottom li {width:230px; height: 225px; overflow: hidden; float: left;padding-right:16px;};
 section .education .education_box .educationimg .educat_img {width:740px; height:150px;}
-section .education .education_box .educationimg .educat_img li {width:145px; height:150px; float: left; position:relative; background-color:#f1f1fd; margin-right:3px;}
-section .education .education_box .educationimg .educat_img li a {width:80px; height:80px; display:inline-block; position:absolute; top:50%; left:50%; margin-top:-40px; margin-left:-40px;}
+section .education .education_box .educationimg .educat_img li {width:145px; height:150px; float: left; position:relative; background-color:#7e57c2; margin-right:3px; border-radius: 10px;}
+section .education .education_box .educationimg .educat_img li a {width:145px; height:80px; display:block; position:absolute; top:50%; left:50%; margin-top:-60px; margin-left:-40px;}
+section .education .education_box .educationimg .educat_img li p {position:absolute; top:50%; left:50%; margin-top:45px; margin-left:-107px; color:#fff;}
+section .education .education_box .educationimg .educat_img li p {text-align: center; width: 150px; padding-top:10px;}
 
 section .whoweare {width: 100%; height: 750px; background-color: green;position:relative}
-section .whoweare h2 {text-align: center;}
+section .whoweare h2 {text-align: center; padding-top: 20px;}
 section .whoweare .whoweare1 {width: 1190px; height:460px; background-color:rgb(152, 84, 96);position:absolute; top:50%; left:50%; margin-top:-230px; margin-left:-595px;}
 section .whoweare .whoweare1 .section {width: 365px; height:460px; background-color:rgb(174, 73, 198); float: left; margin-right: 30px; position:relative;}
-section .whoweare .whoweare1 .section img {width: 365px; height:280px; display:inline-block;}
-section .whoweare .whoweare1 .section .section1 {width: 300px; height: 140px; background-color: rgb(187, 54, 79);text-align: center; margin: 0 auto;margin-top:-70px}
-section .whoweare .whoweare1 .section .section1 p {}
-section .whoweare .whoweare1 .section .section1 span {}
+section .whoweare .whoweare1 .section img {width: 365px; display:inline-block;}
+section .whoweare .whoweare1 .section .section1 {width: 300px; height: 140px; background-color: rgb(248, 246, 250);text-align: center; margin: 0 auto;margin-top:-50px; position: relative; opacity: 0.8;}
+section .whoweare .whoweare1 .section .section1 p {width: 100px; position:absolute; top: 50%; margin-left:100px;margin-top:-50px}
+section .whoweare .whoweare1 .section .section1 span {position:absolute; top: 50%;}
 section .whoweare .whoweare1 .section button {width: 150px; height: 50px; border-radius: 30px; border: 3px solid #7e57c2; display: inline-block;margin-top: 50px; margin-left: -75px; position: absolute; left:50%}
 
 section .ourproduct {width: 100%; height: 850px; background-color: yellow; position:relative}
