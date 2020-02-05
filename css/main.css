@@ -3,12 +3,12 @@
 body {margin: 0; padding: 0;}
 ul,li,ol {list-style:none; padding:0; margin:0;}
 a {text-decoration:none; color:#333;}
-p,h2,h1,h3,h4,h5,span {margin:0; color: #0d123a;}
+p,h2,h1,h3,h4,h5,span {margin:0; color: #2a1703;}
 button {border: none;}
 
 /* 상단 부분 */
 
-header {width: 100%; height: 160px;}
+header {width: 100%; height: 160px; }
 header #headtop {width: 1100px; height: 40px; margin: 0 auto; position:sticky;top:0;}
 header #headtop .topul {width: 250px; height:40px; float: left; display:inline-block; line-height: 40px;padding-left: 5px }
 header #headtop .topul li {font-size:4px; margin-right: 10px; float: left;}
@@ -16,7 +16,7 @@ header #headtop .snslogos {width: 160px; height: 40px; float:right;}
 header #headtop .snslogos ul {width: 160px; height: 26px; padding-top:5px;}
 header #headtop .snslogos li {float:left; padding:2px; }
 header #headtop .snslogos li img { width: 25px;}
-header #headtop .download {width:150px; height:35px; background-color: #7e60d2; float:right;line-height: 35px; border-radius: 12px;}
+header #headtop .download {width:150px; height:35px; background-color: #8e4618; float:right;line-height: 35px; border-radius: 12px;}
 header #headtop .download:hover {background-color: #4417c1;}
 header #headtop .download a {color:#fff; font-size: 11px; padding-left: 10px; position:relative;}
 header #headtop .download img {position: absolute; left: 105%; top:-12%; }
@@ -35,15 +35,15 @@ header .head_logo .serviseCenter img {width: 35px; padding-right: 5px; float: le
 
 /* 상단 배너 부분 */
 
-section .head_banner {width: 100%; height: 700px; position:relative;background-image: url("https://lh3.googleusercontent.com/fwe5ELwpMdn6IVSsSU2ws3MAdpznD702JQbnq7aeGi_gRWXz72ir9-IfQC2EwIedmXBE160Sp86_IOECz7wLoZC8h9Uzil_G9j5RHG-9ZuNjXjIlmpoEdoSTqYyMB6LVuqtfaBhrjtgTE-xs8lbculWGQrtH-LzLwzKpwL0dTxrO6EmOLVX3Z6bHFNQJC6pn1MzhZpnns2uEHmldieOd2--kHhLewmYBrBAx3i6Xvx2UL-ViP2pZf6kpWM6bzTEUbUY0Li1PriO6um_PSqVorGKYCCSA8SnCJYQIpiyqCLrKHwGzKSIy7aSqd56QqCyckhm572T2lT3yM4j2xiFuz8SSXu7IUPkd47TkyPr1A9g8FfjDDRbYdeOnmO4wxCBKp29ZJN9fWe63cHlC24_hgLDBqEjcicMmqmH5vixLfx0huQ3R_nOA214wBt72ebxlC07SorWQgcFnyc4xvAK3L3B4D2U6o70dBY9sGQdURd5AKDwoEtUhZRxvWgO_96JtmWLH34esngY3NT22YQhAm9hrOh5DsZWju24hW8g5OWARpHQtnepQ7x5TiECJ66vNhG_wcEMr-cq59i4UQu1e_TpiGCVMoLzE5AMMbTxwvUEP5T4-GZLheAHn_XtEuDDm9OnGnBVTrWr6YWp0K8K0s7le4UwJCP0GwrSeZPvxAHSLIvFPpktG27Y9=w1000-h667-no");
-background-size: cover; background-repeat: no-repeat;background-attachment: fixed;}
-section .head_banner .banner_inner {width: 700px; height: 325px; background-color: white; border-radius: 10px; position:absolute; top: 50%; left:38%; z-index:1; margin-top:-162px; margin-left:-350px;}
+section .head_banner {width: 100%; height: 700px; position:relative;background-image: url("/img/main/slide.jpg");
+background-size:cover; background-repeat:no-repeat;background-attachment: fixed;}
+section .head_banner .banner_inner {width: 625px; height: 325px; background-color: white; border-radius: 10px; position:absolute; top: 68%; left:67%; z-index:1; margin-top:-162px; margin-left:-350px;}
 section .head_banner .banner_inner .inner_left {width: 400px; height:285px; float: left; padding: 30px 0 0 30px;}
 section .head_banner .banner_inner .inner_left h2 {font-size: 40px; margin-bottom:3px;}
 section .head_banner .banner_inner .inner_left span {width: 400px;}
-section .head_banner .banner_inner .inner_left button {width: 130px; height: 45px; font-size: 15px; color:white; background-color: #7d5fcf; border-radius:10px; display: block; margin-top:20px;}
-section .head_banner .banner_inner .inner_left button:hover {background-color: #4417c1; cursor:pointer;}
-section .head_banner .banner_inner .inner_right{width:190px; height:325px; background-color: #f7f7f7; float: right;border-radius: 10px;}
+section .head_banner .banner_inner .inner_left button {width: 130px; height: 45px; font-size: 15px; color:#f5f1ec; background-color: #8e4618; border-radius:10px; display: block; margin-top:20px;}
+section .head_banner .banner_inner .inner_left button:hover {background-color: #d5b899; cursor:pointer;}
+section .head_banner .banner_inner .inner_right{width:190px; height:325px; background-color: #f4e7da; float: right;border-radius: 10px;}
 section .head_banner .banner_inner .inner_right img {width: 90px;margin:0 auto;display: block;padding-top:60px;}
 section .head_banner .banner_inner .inner_right h2 {padding-top:20px; text-align:center; font-size: 15px;}
 section .head_banner .banner_inner .inner_right p {text-align:center; font-size: 12px;}
@@ -51,14 +51,15 @@ section .head_banner .banner_inner .inner_right p {text-align:center; font-size:
 
 /* 중간 부분 */
 
-section .products {width: 100%; height: 700px; background-color: #fff;text-align: center}
-section .products p:first-child {padding: 30px 0 5px 0; border-bottom: 3px solid #7d5fcf; display: inline-block; }
+section .products {width: 100%; height: 700px; background-color:#fff;text-align: center}
+section .products p:first-child {padding: 30px 0 5px 0; border-bottom: 3px solid #8e4618; display: inline-block; }
 section .products p:nth-child(2){text-align: center; padding: 30px 0 50px 0; margin: 0; font-size: 50px; font-weight: bolder;}
 section .products .bannerp {width:1360px; height: 435px; margin: 0 auto;}
 section .products .bannerp .bannerimg img {transition: transform .4s ease-in-out;}
 section .products .bannerp .bannerimg:hover img {transform: scale(1.1); cursor:pointer;}
-section .products .bannerp .bannerimg_img_left {width: 130px; height: 365px; float:left; background-position: center; background-repeat: no-repeat; background-image: url('/img/main/left.png');}
-section .products .bannerp .bannerimg_img_right{width: 130px; height: 365px; float:right;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/right.png');}
+section .products .bannerp .bannerimg_img_left {width: 130px; height: 365px; float:left; }
+i {color: #8e4618; width: 100px; margin-top:170px;}
+section .products .bannerp .bannerimg_img_right{width: 130px; height: 365px; float:right;}
 section .products .bannerp .bannerimg {width: 350px; height:365px; margin-right: 25px; float: left;position: relative;}
 section .products .bannerp .bannerimg img {width:350px; height: 206px;box-shadow: 1px 1px 1px #cdcbcb}
 section .products .bannerp .bannerimg:nth-of-type(4){margin-right:0;}
@@ -71,10 +72,10 @@ section .products .bannerp .bannerimg:hover .textbox {transform:translatey(35px)
 section .year60 {width: 100%; height: 600px; position: relative; background-image: url('/img/main/z.png');background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
 section .year60 .yearleft {width: 1090px; height:400px; margin: 0 auto; position: absolute; top:50%; left: 50%; margin-top:-200px; margin-left:-545px;}
 section .year60 .yearleft .lefttextbutton {width:545px; height:395px; float: left;text-align: left;}
-section .year60 .yearleft .lefttextbutton p:first-child {padding: 0px 0 5px 0; border-bottom: 3px solid #7d5fcf; display: inline-block;}
+section .year60 .yearleft .lefttextbutton p:first-child {padding: 0px 0 5px 0; border-bottom: 3px solid #8e4618; display: inline-block;}
 section .year60 .yearleft .lefttextbutton p:nth-child(3) {margin-bottom:30px;}
 section .year60 .yearleft .lefttextbutton h2 {font-weight: bolder; font-size: 30px; margin-top:30px; margin-bottom:30px;}
-section .year60 .yearleft .lefttextbutton button{width: 130px; height: 45px; font-size: 15px; color:white; background-color: #7d5fcf; border-radius:10px; }
+section .year60 .yearleft .lefttextbutton button{width: 130px; height: 45px; font-size: 15px; color:white; background-color: #8e4618; border-radius:10px; }
 section .year60 .yearleft .video {width:545px; height:395px; float: right;}
 
 section .coldrolled {width: 100%; height: 695px;position: relative;}
@@ -82,14 +83,14 @@ section .coldrolled .coldrolled_box {width:1360px; height: 420px;position: absol
 section .coldrolled .coldrolled_box .coldrolled_left {width: 130px; height: 420px;float:left;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/left.png');}
 section .coldrolled .coldrolled_box .coldtext {width: 430px; height: 420px;float: left;}
 section .coldrolled .coldrolled_box .coldtext h2 {font-weight: bolder; font-size: 30px; margin-top:30px; margin-bottom:30px;}
-section .coldrolled .coldrolled_box .coldtext button {width: 130px; height: 45px; font-size: 15px; color:white; background-color: #7d5fcf; border-radius:10px; margin-top: 45px;}
+section .coldrolled .coldrolled_box .coldtext button {width: 130px; height: 45px; font-size: 15px; color:white; background-color: #8e4618; border-radius:10px; margin-top: 45px;}
 section .coldrolled .coldrolled_box .coldimage {width: 670px; height: 420px; float: left;overflow: hidden; box-shadow: 3px 3px 3px #cdcbcb;}
 section .coldrolled .coldrolled_box .coldimage img {width: 670;}
 section .coldrolled .coldrolled_box .coldrolled_right{width: 130px; height: 420px; float:right;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/right.png');}
 
-section .education {width: 100%; height: 700px;position: relative; background-color:rgb(250, 250, 250) }
+section .education {width: 100%; height: 700px;position: relative; background-color:#f4e7da; }
 section .education .education_box {width: 1173px; height: 440px; position: absolute; top:50%; left:50%; margin-top:-220px; margin-left:-586px;}
-section .education .education_box #educationbox {width: 405px; height:440px; background-color: #7e57c2; float:left; border-radius: 10px;}
+section .education .education_box #educationbox {width: 405px; height:440px; background-color: #8e4618; float:left; border-radius: 10px;}
 section .education .education_box #educationbox div:first-child {display: inline-block; padding-bottom:20px; border-bottom: 1px solid #cbc9c9;}
 section .education .education_box #educationbox div:first-child h3 {float: left;padding: 20px; color:#fff;}
 section .education .education_box #educationbox div:first-child img {width: 25px; float: right; padding: 20px;}
@@ -107,44 +108,59 @@ section .education .education_box .educationimg .educationimg_top .educationimg_
 section .education .education_box .educationimg .educationimg_top .educat_bottom {width:740px; height: 220px; }
 section .education .education_box .educationimg .educationimg_top .educat_bottom li {width:230px; height: 225px; overflow: hidden; float: left;padding-right:16px;};
 section .education .education_box .educationimg .educat_img {width:740px; height:150px;}
-section .education .education_box .educationimg .educat_img li {width:145px; height:150px; float: left; position:relative; background-color:#7e57c2; margin-right:3px; border-radius: 10px;}
+section .education .education_box .educationimg .educat_img li {width:145px; height:150px; float: left; position:relative; background-color:#8e4618; margin-right:3px; border-radius: 10px;}
 section .education .education_box .educationimg .educat_img li a {width:145px; height:80px; display:block; position:absolute; top:50%; left:50%; margin-top:-60px; margin-left:-40px;}
 section .education .education_box .educationimg .educat_img li p {position:absolute; top:50%; left:50%; margin-top:45px; margin-left:-107px; color:#fff;}
 section .education .education_box .educationimg .educat_img li p {text-align: center; width: 150px; padding-top:10px;}
 
-section .whoweare {width: 100%; height: 750px; background-color: green;position:relative}
-section .whoweare h2 {text-align: center; padding-top: 20px;}
-section .whoweare .whoweare1 {width: 1190px; height:460px; background-color:rgb(152, 84, 96);position:absolute; top:50%; left:50%; margin-top:-230px; margin-left:-595px;}
-section .whoweare .whoweare1 .section {width: 365px; height:460px; background-color:rgb(174, 73, 198); float: left; margin-right: 30px; position:relative;}
-section .whoweare .whoweare1 .section img {width: 365px; display:inline-block;}
-section .whoweare .whoweare1 .section .section1 {width: 300px; height: 140px; background-color: rgb(248, 246, 250);text-align: center; margin: 0 auto;margin-top:-50px; position: relative; opacity: 0.8;}
-section .whoweare .whoweare1 .section .section1 p {width: 100px; position:absolute; top: 50%; margin-left:100px;margin-top:-50px}
-section .whoweare .whoweare1 .section .section1 span {position:absolute; top: 50%;}
-section .whoweare .whoweare1 .section button {width: 150px; height: 50px; border-radius: 30px; border: 3px solid #7e57c2; display: inline-block;margin-top: 50px; margin-left: -75px; position: absolute; left:50%}
+section .whoweare {width: 100%; height: 750px;position:relative}
+section .whoweare h2 {text-align: center; padding-top: 50px; font-size: 30px;}
+section .whoweare .whoweare1 {width: 1190px; height:460px; position:absolute; top:50%; left:50%; margin-top:-230px; margin-left:-595px;}
+section .whoweare .whoweare1 .section3 {width: 365px; height:460px; float: left; margin-right: 30px; position:relative; }
+section .whoweare .whoweare1 .section3:hover img{ opacity: 0.5; cursor: pointer;}
+section .whoweare .whoweare1 .section3:hover .section1 p {color:#333;}
+section .whoweare .whoweare1 .section3 img {width: 365px; height: 375px; display:inline-block;}
+section .whoweare .whoweare1 .section3 .section1 {background-color:#e9be8f;width: 300px; height: 120px; border-radius: 10px; box-shadow: 1px 1px 4px grey;text-align: center; margin: 0 auto;margin-top:-40px; position: relative; }
+section .whoweare .whoweare1 .section3 .section1:hover { background-color:#f1dac1; cursor: pointer;}
+section .whoweare .whoweare1 .section3 .section1 p {font-size: 30px;width: 300px; position:absolute; top: 50%; margin-left:50px;margin-top:-45px; margin-left:0px;color:#fff}
+section .whoweare .whoweare1 .section3 .section1 p:nth-of-type(2) {font-size: 15px; position:absolute; top:90%;}
 
-section .ourproduct {width: 100%; height: 850px; background-color: yellow; position:relative}
-section .ourproduct h2 {text-align: center;}
-section .ourproduct .ourbanner {width: 1435px; height: 425px; background-color: rgb(4, 191, 198); position:absolute; top:50%; left:50%; margin-top:-212.5px; margin-left:-717.5px;}
-section .ourproduct .ourbanner .ourbanner_left {width:120px; height: 425px; background-color: rgb(182, 219, 130);float:left;}
-section .ourproduct .ourbanner .ourbanner_img {width:880px; height:425px;background-color: rgb(11, 17, 227); float: left;margin-left:30px;}
-section .ourproduct .ourbanner .ourbanner_text {width: 447px; height: 345px; background-color: rgb(238, 172, 52);float:right; position:absolute; top:50%; margin-top: -172.5px; left: 58%; }
-section .ourproduct .ourbanner .ourbanner_right {width:120px; height: 425px; background-color: rgb(182, 219, 130);float:right;}
+section .ourproduct {width: 100%; height: 720px; position:relative; background-color: #f4e7da; }
+section .ourproduct h2 {text-align: center;padding-top: 50px; font-size: 30px;}
+section .ourproduct .ourbanner {width: 1435px; height: 425px; position:absolute; top:50%; left:50%; margin-top:-212.5px; margin-left:-717.5px;}
+section .ourproduct .ourbanner .ourbanner_left {width:120px; height: 425px; ;float:left;}
+section .ourproduct .ourbanner .ourbanner_img {width:880px; height:425px;background-color: rgb(11, 17, 227); float: left;margin-left:30px; overflow: hidden;}
+section .ourproduct .ourbanner .ourbanner_img img {width: 880px;}
+section .ourproduct .ourbanner .ourbanner_text {width: 447px; height: 345px; box-shadow: 1px 1px 4px #8e4618; background-color: #fff;float:right; position:absolute; top:50%; margin-top: -172.5px; left: 58%; border-radius: 10px;}
+section .ourproduct .ourbanner .ourbanner_text h3 {padding: 50px 0 30px 15px; font-size: 25px;}
+section .ourproduct .ourbanner .ourbanner_text span {padding-left:15px; display: inline-block;}
+section .ourproduct .ourbanner .ourbanner_right {width:120px; height: 425px;float:right;}
 
-section .application {width: 100%; height: 390px; background-color: rgb(3, 143, 207); position:relative}
-section .application .application_all {width:1190px; height:265px; background-color: rgb(196, 87, 249);position:absolute; top:50%; left:50%; margin-top: -132.5px; margin-left: -595px;}
-section .application .application_left {width: 595px; height:265px; background-color: #222836; float:left;}
+section .application {width: 100%; height: 390px; position:relative}
+section .application .application_all {width:1190px; height:265px;position:absolute; top:50%; left:50%; margin-top: -132.5px; margin-left: -595px;}
+section .application .application_left {width: 595px; height:265px; background-color: #222836; float:left; border-radius: 10px;}
 section .application .application_left .application_left_text {width:360px; height:265px; float:left;}
-section .application .application_left h3 {color:white;margin-left: 50px;margin-top:50px;}
-section .application .application_left span {color:white;margin-left: 50px;}
-section .application .application_left .p {width: 150px; height:50px; background-color: white; color: #222836; border-radius: 20px; position:relative; top:30%; margin-left: 50px;}
+section .application .application_left h3 {color:white;margin-left: 30px;margin-top:20px;}
+section .application .application_left p {color:white;margin-left: 30px;margin-top: 15px;}
+section .application .application_left .p {width: 150px; height:50px; background-color: white; color: #222836; border:1px solid #8e4618; border-radius: 20px; position:relative; top:10%; margin-left: 30px;}
 section .application .application_left .p a {width: 150px; height:50px; position: absolute; top:25%; left:50%; margin-left:-75px; color:black; text-align: center;}
-section .application .application_left .p_img {width: 222px; height: 265px; background-color: rgb(179, 105, 138);float:right;}
-section .application .application_center {width: 265px; height: 265px; background-color: rgb(37, 181, 226); float:left;margin-left:30px;}
-section .application .application_right {width: 265px; height: 265px; background-color: rgb(231, 118, 65); float:right;}
+section .application .application_left .p_img {width: 222px; height: 265px; background-color: #222836; float:right;border-radius: 10px;}
+section .application .application_left .p_img img {width:150px; padding: 30px 0 0 36px;}
+section .application .application_center {width: 265px; height: 265px; border-radius: 10px; box-shadow: 1px 1px 4px #8e4618; background-color: #fff; float:left;margin-left:30px;}
+section .application .application_center h3 {padding:10px 0 0 10px;}
+section .application .application_center p {padding:10px}
+section .application .application_center p:nth-of-type(2) { padding-top: 0; font-size: 13px;}
+section .application .application_right {width: 265px; height: 265px; background-color: #fff; float:right; box-shadow: 1px 1px 4px #8e4618;}
+section .application .application_right h3 {padding:10px 0 0 10px;}
+section .application .application_right p {padding:10px}
+section .application .application_right p:nth-of-type(2) { padding-top: 0; font-size: 13px;}
 
-section .longbar {width: 100%; height: 180px; background-color: #795cc8;position: relative;}
+section .longbar {width: 100%; height: 180px; background-color: #8e4618;position: relative;}
 section .longbar .longbar_content{width: 1120px; height:180px;margin: 0 auto;}
-section .longbar .longbar_content li {width: 270px; height:180px; margin-left:10px; background-color:rgb(227, 172, 142); float:left;}
+section .longbar .longbar_content img {width: 70px;float: left; padding: 55px 30px 0 50px;}
+section .longbar .longbar_content li p {font-size: 25px;padding-top: 60px; color:#fff; }
+section .longbar .longbar_content li span {color:#fff;}
+section .longbar .longbar_content li {width: 270px; height:180px; margin-left:10px;  float:left;}
 
 section .news {width: 100%; height: 910px; background-color: rgb(3, 143, 207);position: relative;}
 section .news p {text-align:center;}
@@ -155,6 +171,9 @@ section .news .newsbox {width: 350px; height: 425px;background-color: rgb(27, 20
 
 /* 하단부분 */
 
-footer {width: 100%; height: 370px; background-color: rgb(160, 235, 176); position: relative;}
-footer .footer_text {width: 1190px; height:245px; background-color: rgb(141, 160, 235); position: absolute; top:50%; left:50%; margin-top:-122.5px; margin-left:-560px}
-footer .footer_text .div1 {width:290px; height: 245px; margin-right:7px; background-color: rgb(125, 147, 126);float:left;}
+footer {width: 100%; height: 200px; background-color: #8e4618; position: relative;}
+footer .footer_text {width: 1190px; height:150px; position: absolute; top:50%; left:50%; margin-top:-60px; margin-left:-560px}
+footer .footer_text .div1 {width:290px; height: 150px; margin-right:7px;float:left;}
+footer .footer_text .div1 h3 {font-size: 20px; padding-bottom: 10px; color:#fff;}
+footer .footer_text .div1 p {font-size: 12px; color:#fff;}
+footer .footer_text .div1 span {font-size: 12px;color:#fff;}
