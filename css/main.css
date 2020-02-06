@@ -10,7 +10,7 @@ button {border: none;}
 
 header {width: 100%; height: 160px; }
 header #headtop {width: 1100px; height: 40px; margin: 0 auto; position:sticky;top:0;}
-header #headtop .topul {width: 250px; height:40px; float: left; display:inline-block; line-height: 40px;padding-left: 5px }
+header #headtop .topul {width: 250px; height:40px; float: left; display:inline-block; line-height: 40px;padding-left: 30px }
 header #headtop .topul li {font-size:4px; margin-right: 10px; float: left;}
 header #headtop .snslogos {width: 160px; height: 40px; float:right;}
 header #headtop .snslogos ul {width: 160px; height: 26px; padding-top:5px;}
@@ -25,7 +25,7 @@ header .head_logo {width: 1100px; height: 120px; margin: 0 auto; font-size: 14px
 header .head_logo .sbox {padding-top: 40px;}
 header .head_logo .sbox span {font-weight: bold; }
 header .head_logo .sbox p {font-size:13px;}
-header .head_logo .logo {width: 330px; height: 80px; padding-top:20px; float: left;}
+header .head_logo .logo {width: 330px; height: 80px; padding-top:15px; float: left;}
 header .head_logo .address {width:251px; height:120px; float:right;}
 header .head_logo .address img {width: 35px; padding-right: 5px; float: left;}
 header .head_logo .smsnumber {width:192px; height:120px; float:right;}
@@ -35,7 +35,7 @@ header .head_logo .serviseCenter img {width: 35px; padding-right: 5px; float: le
 
 /* 상단 배너 부분 */
 
-section .head_banner {width: 100%; height: 700px; position:relative;background-image: url("/img/main/slide.jpg");
+section .head_banner {width: 100%; height: 700px; position:relative;background-image: url("/img/main/slide1.jpg");
 background-size:cover; background-repeat:no-repeat;background-attachment: fixed;}
 section .head_banner .banner_inner {width: 625px; height: 325px; background-color: white; border-radius: 10px; position:absolute; top: 68%; left:67%; z-index:1; margin-top:-162px; margin-left:-350px;}
 section .head_banner .banner_inner .inner_left {width: 400px; height:285px; float: left; padding: 30px 0 0 30px;}
@@ -44,8 +44,8 @@ section .head_banner .banner_inner .inner_left span {width: 400px;}
 section .head_banner .banner_inner .inner_left button {width: 130px; height: 45px; font-size: 15px; color:#f5f1ec; background-color: #8e4618; border-radius:10px; display: block; margin-top:20px;}
 section .head_banner .banner_inner .inner_left button:hover {background-color: #d5b899; cursor:pointer;}
 section .head_banner .banner_inner .inner_right{width:190px; height:325px; background-color: #f4e7da; float: right;border-radius: 10px;}
-section .head_banner .banner_inner .inner_right img {width: 90px;margin:0 auto;display: block;padding-top:60px;}
-section .head_banner .banner_inner .inner_right h2 {padding-top:20px; text-align:center; font-size: 15px;}
+section .head_banner .banner_inner .inner_right img {width: 115px; margin: 0 auto; padding-top:15px; display: block;}
+section .head_banner .banner_inner .inner_right h2 {padding-top:80px; text-align:center; font-size: 15px;}
 section .head_banner .banner_inner .inner_right p {text-align:center; font-size: 12px;}
 
 
@@ -80,21 +80,22 @@ section .year60 .yearleft .video {width:545px; height:395px; float: right;}
 
 section .coldrolled {width: 100%; height: 695px;position: relative;}
 section .coldrolled .coldrolled_box {width:1360px; height: 420px;position: absolute; top:50%; left: 50%; margin-left: -680px;margin-top:-210px; }
-section .coldrolled .coldrolled_box .coldrolled_left {width: 130px; height: 420px;float:left;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/left.png');}
+section .coldrolled .coldrolled_box .coldrolled_left {width: 130px; height: 420px;float:left;}
 section .coldrolled .coldrolled_box .coldtext {width: 430px; height: 420px;float: left;}
 section .coldrolled .coldrolled_box .coldtext h2 {font-weight: bolder; font-size: 30px; margin-top:30px; margin-bottom:30px;}
 section .coldrolled .coldrolled_box .coldtext button {width: 130px; height: 45px; font-size: 15px; color:white; background-color: #8e4618; border-radius:10px; margin-top: 45px;}
 section .coldrolled .coldrolled_box .coldimage {width: 670px; height: 420px; float: left;overflow: hidden; box-shadow: 3px 3px 3px #cdcbcb;}
 section .coldrolled .coldrolled_box .coldimage img {width: 670;}
-section .coldrolled .coldrolled_box .coldrolled_right{width: 130px; height: 420px; float:right;background-position: center; background-repeat: no-repeat; background-image: url('/img/main/right.png');}
+section .coldrolled .coldrolled_box .coldrolled_right{width: 130px; height: 420px; float:right;}
+section .coldrolled .coldrolled_box .coldrolled_right i {margin-left: 20px;}
 
-section .education {width: 100%; height: 700px;position: relative; background-color:#f4e7da; }
+section .education {width: 100%; height: 700px;position: relative; background-color: #f8f9f4; }
 section .education .education_box {width: 1173px; height: 440px; position: absolute; top:50%; left:50%; margin-top:-220px; margin-left:-586px;}
 section .education .education_box #educationbox {width: 405px; height:440px; background-color: #8e4618; float:left; border-radius: 10px;}
-section .education .education_box #educationbox div:first-child {display: inline-block; padding-bottom:20px; border-bottom: 1px solid #cbc9c9;}
-section .education .education_box #educationbox div:first-child h3 {float: left;padding: 20px; color:#fff;}
+section .education .education_box #educationbox div:first-child {display: inline-block; padding-bottom:20px; border-bottom: 1px solid  rgba(255, 255, 255, 0.2);}
+section .education .education_box #educationbox div:first-child h3 {float: left;padding: 20px; color:#d6d3d3;}
 section .education .education_box #educationbox div:first-child img {width: 25px; float: right; padding: 20px;}
-section .education .education_box #educationbox div  {padding-bottom:30px; padding-top: 10px; border-bottom: 1px solid #cbc9c9; }
+section .education .education_box #educationbox div  {padding-bottom:30px; padding-top: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
 section .education .education_box #educationbox div:nth-child(2) {margin-left:20px; margin-right: 20px;}
 section .education .education_box #educationbox div:nth-child(3) {margin-left:20px; margin-right: 20px;}
 section .education .education_box #educationbox div:nth-child(4) {margin-left:20px; margin-right: 20px;}
@@ -108,7 +109,7 @@ section .education .education_box .educationimg .educationimg_top .educationimg_
 section .education .education_box .educationimg .educationimg_top .educat_bottom {width:740px; height: 220px; }
 section .education .education_box .educationimg .educationimg_top .educat_bottom li {width:230px; height: 225px; overflow: hidden; float: left;padding-right:16px;};
 section .education .education_box .educationimg .educat_img {width:740px; height:150px;}
-section .education .education_box .educationimg .educat_img li {width:145px; height:150px; float: left; position:relative; background-color:#8e4618; margin-right:3px; border-radius: 10px;}
+section .education .education_box .educationimg .educat_img li {width:145px; height:150px; float: left; position:relative; background-color:#b86006; margin-right:3px; border-radius: 10px;}
 section .education .education_box .educationimg .educat_img li a {width:145px; height:80px; display:block; position:absolute; top:50%; left:50%; margin-top:-60px; margin-left:-40px;}
 section .education .education_box .educationimg .educat_img li p {position:absolute; top:50%; left:50%; margin-top:45px; margin-left:-107px; color:#fff;}
 section .education .education_box .educationimg .educat_img li p {text-align: center; width: 150px; padding-top:10px;}
@@ -120,12 +121,12 @@ section .whoweare .whoweare1 .section3 {width: 365px; height:460px; float: left;
 section .whoweare .whoweare1 .section3:hover img{ opacity: 0.5; cursor: pointer;}
 section .whoweare .whoweare1 .section3:hover .section1 p {color:#333;}
 section .whoweare .whoweare1 .section3 img {width: 365px; height: 375px; display:inline-block;}
-section .whoweare .whoweare1 .section3 .section1 {background-color:#e9be8f;width: 300px; height: 120px; border-radius: 10px; box-shadow: 1px 1px 4px grey;text-align: center; margin: 0 auto;margin-top:-40px; position: relative; }
+section .whoweare .whoweare1 .section3 .section1 {background-color:rgba(184, 96, 6, 0.72); width: 300px; height: 120px; border-radius: 10px; box-shadow: 1px 1px 4px grey;text-align: center; margin: 0 auto;margin-top:-40px; position: relative; }
 section .whoweare .whoweare1 .section3 .section1:hover { background-color:#f1dac1; cursor: pointer;}
 section .whoweare .whoweare1 .section3 .section1 p {font-size: 30px;width: 300px; position:absolute; top: 50%; margin-left:50px;margin-top:-45px; margin-left:0px;color:#fff}
 section .whoweare .whoweare1 .section3 .section1 p:nth-of-type(2) {font-size: 15px; position:absolute; top:90%;}
 
-section .ourproduct {width: 100%; height: 720px; position:relative; background-color: #f4e7da; }
+section .ourproduct {width: 100%; height: 720px; position:relative; background-color: #f8f9f4; }
 section .ourproduct h2 {text-align: center;padding-top: 50px; font-size: 30px;}
 section .ourproduct .ourbanner {width: 1435px; height: 425px; position:absolute; top:50%; left:50%; margin-top:-212.5px; margin-left:-717.5px;}
 section .ourproduct .ourbanner .ourbanner_left {width:120px; height: 425px; ;float:left;}
@@ -138,13 +139,13 @@ section .ourproduct .ourbanner .ourbanner_right {width:120px; height: 425px;floa
 
 section .application {width: 100%; height: 390px; position:relative}
 section .application .application_all {width:1190px; height:265px;position:absolute; top:50%; left:50%; margin-top: -132.5px; margin-left: -595px;}
-section .application .application_left {width: 595px; height:265px; background-color: #222836; float:left; border-radius: 10px;}
+section .application .application_left {width: 595px; height:265px; background-color: rgba(142, 70, 24, 0.7); float:left; border-radius: 10px;}
 section .application .application_left .application_left_text {width:360px; height:265px; float:left;}
 section .application .application_left h3 {color:white;margin-left: 30px;margin-top:20px;}
 section .application .application_left p {color:white;margin-left: 30px;margin-top: 15px;}
 section .application .application_left .p {width: 150px; height:50px; background-color: white; color: #222836; border:1px solid #8e4618; border-radius: 20px; position:relative; top:10%; margin-left: 30px;}
 section .application .application_left .p a {width: 150px; height:50px; position: absolute; top:25%; left:50%; margin-left:-75px; color:black; text-align: center;}
-section .application .application_left .p_img {width: 222px; height: 265px; background-color: #222836; float:right;border-radius: 10px;}
+section .application .application_left .p_img {width: 222px; height: 265px; background-color: #b86006; float:right;border-radius: 10px;}
 section .application .application_left .p_img img {width:150px; padding: 30px 0 0 36px;}
 section .application .application_center {width: 265px; height: 265px; border-radius: 10px; box-shadow: 1px 1px 4px #8e4618; background-color: #fff; float:left;margin-left:30px;}
 section .application .application_center h3 {padding:10px 0 0 10px;}
