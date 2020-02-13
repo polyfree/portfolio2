@@ -1,0 +1,30 @@
+﻿@charset "UTF-8";
+
+
+
+/* 중간 부분 */
+
+section .products {width: 100%; height: 700px; background-color:yellow;text-align: center; display:flex; align-items: center;}
+section .products .bannerp {width:1360px; height: 650px; margin: 0 auto;background-color:gold;display:flex; flex-flow: row wrap; justify-content:center; align-content: center;}
+section .products .bannerimg {width: 430px; height: 300px; background-color: cyan; margin: 10px;}
+section .products .bannerimg img {width: 350px; height: 206px;}
+
+section .year60 {width: 100%; height: 600px; background-color:skyblue;display: flex; align-items: center;}
+section .year60 .yearleft {width:1360px; height: 330px; margin: 0 auto; background-color:blue;display:flex; flex-flow:row wrap;justify-content: center; align-content: center;}
+section .year60 .yearleft .lefttextbutton {width:430px; height: 300px; background-color:yellow; margin: 10px;}
+
+section .coldrolled {width: 100%; height: 600px; display: flex; justify-content: center;align-items: center; background-color: tomato;}
+section .coldrolled .coldrolled_box {width:1360px; height: 330px;background-color:rgb(88, 196, 85); display:flex; flex-flow:row wrap; justify-content: space-between;; align-content: center;}
+section .coldrolled .coldrolled_box .coldtext {width: 700px; height: 330px;background-color: rgb(117, 84, 157);}
+section .coldrolled .coldrolled_box .coldimage img {width: 500px; height: 330px; background-color: rgb(195, 194, 88);}
+
+section .ourproduct {width: 100%; height: 720px;  background-color: #d4e68c; display: flex; justify-content: center; align-items: center; flex-flow: column wrap;}
+section .ourproduct h2 {width: 800px; height: 100px; line-height: 100px;}
+section .ourproduct .ourbanner {width: 1360px; height: 500px; background-color: rgb(138, 165, 205); display:flex; flex-flow:row wrap; justify-content: space-around;; align-content: center;}
+section .ourproduct .ourbanner .ourbanner_img {width: 500px; height: 400px; background-color:rgb(179, 228, 255); }
+section .ourproduct .ourbanner .ourbanner_text {width: 700px; height: 330px;background-color: rgb(117, 84, 157);}
+
+section .lightroast {width: 100%; height: 600px; display: flex; justify-content: center;align-items: center; background-color: tomato;}
+section .lightroast .lightroast_box {width:1360px; height: 330px;background-color:rgb(88, 196, 85); display:flex; flex-flow:row wrap; justify-content: space-between;; align-content: center;}
+section .lightroast .lightroast_box .lightroasttext {width: 700px; height: 330px;background-color: rgb(117, 84, 157);}
+section .lightroast .lightroast_box .lightroastimage {width: 500px; height: 330px; background-color: rgb(195, 194, 88);}
