@@ -5,23 +5,23 @@ ul,li,ol {list-style:none; padding:0; margin:0;}
 a {text-decoration:none; color:#333;}
 p,h2,h1,h3,h4,h5,span {margin:0; color: #2a1703;}
 button {border: none;}
-
+*{font-family: 'Nanum Gothic', sans-serif;}
 /* 상단 부분 */
 
 header {width: 100%; height: 190px; }
-header #headtop {width: 1100px; height: 40px; margin: 0 auto; position:sticky;top:0;}
+header #headtop {width: 1360px; height: 40px; margin: 0 auto; position:sticky;top:0;}
 header #headtop .topul {width: 250px; height:40px; float: left; display:inline-block; line-height: 40px;padding-left: 30px }
 header #headtop .topul li {font-size:4px; margin-right: 10px; float: left;}
 header #headtop .snslogos {width: 160px; height: 40px; float:right;}
 header #headtop .snslogos ul {width: 160px; height: 26px; padding-top:5px;}
 header #headtop .snslogos li {float:left; padding:2px; }
 header #headtop .snslogos li img { width: 25px;}
-header #headtop .download {width:150px; height:35px; background-color: #8e4618; float:right;line-height: 35px; border-radius: 12px;}
-header #headtop .download:hover {background-color: #4417c1;}
+header #headtop .download {width:150px; height:35px; background-color: #aa6924; float:right;line-height: 35px; border-radius: 12px;}
+header #headtop .download:hover {background-color: rgba(170, 105, 36, 0.55);}
 header #headtop .download a {color:#fff; font-size: 11px; padding-left: 10px; position:relative;}
 header #headtop .download img {position: absolute; left: 105%; top:-12%; }
 
-header .head_logo {width: 1100px; height: 95px; margin: 0 auto; font-size: 14px;}
+header .head_logo {width: 1360px; height: 95px; margin: 0 auto; font-size: 14px;}
 header .head_logo .sbox {padding-top: 40px;}
 header .head_logo .sbox span {font-weight: bold; }
 header .head_logo .sbox p {font-size:13px;}
@@ -33,11 +33,7 @@ header .head_logo .smsnumber img {width: 35px;float: left;padding-right: 5px;}
 header .head_logo .serviseCenter {width:150px; height:95px; float:right;}
 header .head_logo .serviseCenter img {width: 35px; padding-right: 5px; float: left;}
 
-.head_nav {width: 100%; height: 40px;}
-.head_nav nav {width: 1060px; height: 40px; margin: 0 auto;}
-.head_nav nav li {margin-top: 5px; width: 205px; height: 40px; background-color: #d5b899; float:left; text-align: center; line-height: 40px; margin-right: 2px;}
-.head_nav nav li:first-child {margin-left:25px;}
-.head_nav nav li a {width: 210px; height: 40px; display: inline-block;}
+
 
 
 
